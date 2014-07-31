@@ -7,7 +7,7 @@
     "devDependencies": {
         "Hw2/dep/jdom-doc" : "http://repo1.maven.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3-javadoc.jar"
     },
-    "//": "ensure we keep the right git repository configurations",
+    "_comment_keep": "ensure we keep the right git repository configurations",
     "keep": [
         ".git/config"
     ]
