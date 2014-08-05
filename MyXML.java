@@ -2,7 +2,6 @@
  * Copyright (C) 2007 - 2014 Hyperweb2 All rights reserved.
  * GNU General Public License version 3; see www.hyperweb2.com/terms/
  */
-
 package hw2.java.library.xml;
 
 import java.io.IOException;
@@ -79,10 +78,11 @@ public class MyXML {
     }
 
     /**
-     *  
+     *
      * @param elem
-     * @param tagFilter to get only values of certain subtag, leave null to get all values
-     * @return 
+     * @param tagFilter to get only values of certain subtag, leave null to get
+     * all values
+     * @return
      */
     public ArrayList<String> getElementsValues(ArrayList<Element> elem, String tagFilter) {
 
@@ -104,12 +104,15 @@ public class MyXML {
     }
 
     /**
-     * 
+     *
      * @param tag the tag name of new element
-     * @param value value to write inside new tag, if value is an empty string (""), the check of duplicate is only on tag 
-     * @param attributes attributes to write inside new tag, leave null if no attributes needed
+     * @param value value to write inside new tag, if value is an empty string
+     * (""), the check of duplicate is only on tag
+     * @param attributes attributes to write inside new tag, leave null if no
+     * attributes needed
      * @param parent the parent element where start to check/write inside
-     * @param checkDuplicate check if the specified new element is already present inside the file and return it
+     * @param checkDuplicate check if the specified new element is already
+     * present inside the file and return it
      * @return the new element of the document, return null in error case
      */
     public Element writeElement(String tag, String value, Collection attributes, Element parent, boolean checkDuplicate) {
