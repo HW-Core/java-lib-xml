@@ -3,7 +3,7 @@
  * GNU General Public License version 3; see www.hyperweb2.com/terms/
  */
 
-package Hw2.Java.library.xml;
+package hw2.java.library.xml;
 
 import java.io.IOException;
 import java.util.logging.Level;
