@@ -1,11 +1,11 @@
 {
-    "name": "hw2/java/library/xml",
+    "name": "hw2/modules/java/src/library/xml",
     "license": "http://www.hyperweb2.com/terms",
     "dependencies": {
-        "hw2/dep/jdom" : "http://repo1.maven.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.jar"
+        "hw2/modules/dep/jdom" : "http://repo1.maven.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.jar"
     },
     "devDependencies": {
-        "hw2/dep/jdom-doc" : "http://repo1.maven.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3-javadoc.jar"
+        "hw2/modules/dep/jdom-doc" : "http://repo1.maven.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3-javadoc.jar"
     },
     "_comment_keep": "ensure we keep the right git repository configurations",
     "keep": [
